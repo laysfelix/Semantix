@@ -1,4 +1,4 @@
-<!-- # Projeto Semantix
+## Projeto Semantix
 
 Apresentamos o nosso projeto de **Arrecadação Federal** dos Estados Brasileiros. Este projeto é baseado em um desenho amostral de 25 anos, utilizando 8 anos de performance.
 
@@ -10,7 +10,6 @@ Os dados utilizados são das Unidades de Federação do Brasil conforme link aba
 
 https://basedosdados.org/dataset/ab4af450-6b41-412e-b7cb-ec7030646c3d?table=17405008-7635-4b38-a14b-bdfcf78351b2
 
--->
 
 ## Descrição do projeto
 
