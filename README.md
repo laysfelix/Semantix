@@ -15,35 +15,46 @@ https://basedosdados.org/dataset/ab4af450-6b41-412e-b7cb-ec7030646c3d?table=1740
 
 Notebook que avalia os impostos de importação e exportação dos estados brasileiros durante um período. 
 
-## Link para a aplicação (LIVE)
+## Bibliotecas utlizadas:
 
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
+import numpy as np
+import statsmodels.formula.api as smf
+import statsmodels.api as sm
+import plotly.express as px
+import ipywidgets as widgets
+import plotly.graph_objects as go
 
-
-## Utilização
-
-### Dependências
-
-* Bibliotecas utlizadas:
-chardet==5.2.0,<br>
-joblib==1.3.2,<br>
-matplotlib==3.7.5,<br>
-numpy==1.26.4,<br>
-openpyxl==3.1.5,<br>
-pandas==2.1.4,<br>
-pyarrow==18.1.0,<br>
-pycaret==3.3.2,<br>
-streamlit==1.41.1<br>
+from pycaret.classification import *
+from scipy.stats import t
+from ydata_profiling import ProfileReport
+from sklearn import metrics
+from scipy.stats import ks_2samp
+from statsmodels.stats.outliers_influence import variance_inflation_factor as vif
+from sklearn.metrics import accuracy_score, roc_curve, auc
+from sklearn.cluster import KMeans
+from sklearn.compose import ColumnTransformer, make_column_transformer, make_column_selector
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.impute import SimpleImputer
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import train_test_split
+from sklearn.pipeline import Pipeline, FeatureUnion
+from sklearn.preprocessing import FunctionTransformer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.ensemble import IsolationForest
+from sklearn.pipeline import make_pipeline
+from imblearn.over_sampling import SMOTE
 
 * Sistema Operacional: Windows 10
 * Jupyter Notebook
+* Anaconda Navigator
 
 ### Instalação
 
 * Instalar as bibliotecas utilizadas
-
-
-### Executando o projeto
-
 
 
 <!-- ## Ajuda
