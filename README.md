@@ -80,4 +80,6 @@ Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md pa
 
 ## Fontes de inspiração
 
-Inspiração, trechos de códigos utilizados, etc.
+Os dados utilizados são das Unidades de Federação do Brasil conforme dados baixado no link abaixo:
+
+https://basedosdados.org/dataset/ab4af450-6b41-412e-b7cb-ec7030646c3d?table=17405008-7635-4b38-a14b-bdfcf78351b2
